@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.principle{
+    width: 200px;
+    height: 200px;
+    background-image: url(gallery/principal.jpg);
+    background-size: cover;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+.principle:hover{
+    transform: scale(1.1);
+}
+.container{
+  
+
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+  
+    padding: 5px;
+    margin: 5px;
+
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="Contactus.css">
+</head>
+<body>
+ 
+     <section class="contact">
+
+        <div class="content">
+           
+            <h2>Contact Us</h2>
+            <br>
+            <p>Address: Kalambagh Rd, Mahammadpur Kazi, Satsang Vihar, Muzaffarpur, Bihar 842001</p>
+        </div>
+        <br>
+        <div class="container">
+            <div class="contactinfo">
+                <div class="box">
+                    <div class="icon">  <i class="fa-solid fa-location-dot"></i></div>
+                    <br>
+                    <div class="text">
+                        <h3>Address :</h3>
+                        <br>
+                        <p>Kalambagh Rd, Mahammadpur Kazi,  <br>Satsang Vihar, Muzaffarpur,<br> Bihar 842001</p>
+                    </div>
+                </div>
+                <br>
+
+                <div class="box">
+                    <div class="icon"> <i class="fa-solid fa-phone"></i></div>
+                    <br>
+                    <div class="text">
+                        <h3>Phone :</h3>
+                        <br>
+                        <p>0000-111111</p>
+                    </div>
+                </div>
+                <br>
+
+                <div class="box">
+                    <div class="icon"> <i class="fa-solid fa-envelope"></i></div>
+                    <br>
+                    <div class="text">
+                        <h3>Email :</h3>
+                        <br>
+                        <p>bcalntcollege@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="contactform">
+                <form onsubmit="return data()" action="contactus.php" method="post">
+                    <h2>Send Message</h2>
+                    <br>
+                    <div class="inputbox">
+                        <input type="text" name="name" id="name" required="required">
+                        <span>Full Name</span>
+                    </div>
+
+                    <div class="inputbox">
+                        <input type="textarea" name="email" id="email" required="required">
+                       
+                        <span>Email</span>
+                    </div>
+                    
+
+                    <div class="inputbox">
+                        <textarea required=required name="message" id="message"  ></textarea>
+                    
+                        <span>Type your Message....</span>
+                    </div>
+                    
+                    <div class="inputbox">
+                        <input type="submit" name="" value="Send">
+                    </div>
+                    
+
+
+                </form>
+            </div>
+            
+        </div>
+
+     </section>
+</body>
+</html>

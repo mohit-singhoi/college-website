@@ -1,0 +1,65 @@
+*{
+    margin-left: 0px;
+    padding: 0;
+    font-family: arial, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin-left: 10px;
+    background-color:cadetblue;
+}
+
+.college{
+    text-align: center;
+    font-weight: lighter;
+    font-size:larger;
+
+}
+.container{
+    margin-left: 20px;
+   
+ 
+}
+.container li {
+    /* list-style: none; */
+    text-decoration: none;
+}
+.container li a{
+    text-decoration: none;
+
+}
+ol{
+    margin-left: 40px;
+    list-style: none;
+}
+
+.PankajSir{
+    height: 300px;
+    width: 250px;
+    background-image: url(gallery/pankajsir.jpg);
+    background-position: fixed;
+    background-size: cover;
+}
+.indrajeetkr{
+    height: 300px;
+    width: 250px;
+    background-image: url(gallery/indrajeet.jpg);
+    background-position: fixed;
+    background-size: cover;
+}
+
+.principle{
+    height: 300px;
+    width: 250px;
+    background-image: url(gallery/Avaysir_principal.jpg);
+    background-position: fixed;
+    background-size: cover;
+}
+
+.Sunilsir{
+    height: 300px;
+    width: 300px;
+    background-image: url(gallery/Sunil_sir.jpg);
+    background-position: fixed;
+    background-size: cover;
+}

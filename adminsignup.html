@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Signup page</title>
+    <link rel="stylesheet" href="adminsignup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+</head>
+<body>
+   
+    
+    <div class="container">
+        <!-- <form action="adminsignup.php" method="post"> -->
+        <div class="form-box">
+            <h1>Admin Sign-up Page</h1>
+            <form onsubmit="return data()" action="adminsignup.php" method="post">
+                <div class="input-group">
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" name="name" id="name" placeholder="Admin_name">
+
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" name="email"id="email" placeholder="E-mail">
+
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="Password" name="password" id="password" placeholder="Password">
+
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="conpassword" id="conpassword" placeholder="Confirm Password">
+
+                    </div>
+
+                </div>
+                <br>
+
+                <div class="btn-field">
+                    <!-- <button type="button" > <a href="#">Sign UP</a></button> -->
+                    <input type="submit" value="Sign UP">
+                    <!-- <input type="Sign in" class="disable"><a href="Adminsignup.html"> Sign-in</a> -->
+                    <button type="button"   class="disable"><a href="Adminsignin.html">Sign in</a> </button>
+                </div>
+
+
+
+                    
+
+                    
+
+
+                </div>
+            </form>
+
+
+        </div>
+    </div>
+
+    <script src="adminsignup.js">
+
+    </script>
+    
+    
+</body>
+</html>

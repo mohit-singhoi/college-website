@@ -1,0 +1,52 @@
+h2{
+    text-align: center;
+    color: red;
+}
+
+.main{
+    border: 2px solid black;
+}
+.img1{
+    height: 50px;
+    width: 50px;
+    background-image: url(gallery/principalimage.png);
+    background-size: cover;
+    background-position: fixed;
+}
+
+.div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img2{
+    height: 50px;
+    width: 50px;
+    background-image: url(gallery/sanjaysir.jpg);
+    background-size: cover;
+    background-position: fixed;
+}
+
+.img3{
+    height: 50px;
+    width: 50px;
+    background-image: url(gallery/sunilsingh.jpg);
+    background-size: cover;
+    background-position: fixed;
+}
+
+.img4{
+    height: 50px;
+    width: 50px;
+    background-image: url(gallery/principal.jpg);
+    background-size: cover;
+    background-position: fixed;
+}
+
+.img5{
+    height: 50px;
+    width: 50px;
+    background-image:url(gallery/Avaysir_principal.jpg);
+    background-size: cover;
+    background-position: fixed;
+}

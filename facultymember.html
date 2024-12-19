@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Images</title>
+    <link rel="stylesheet" href="facultymember.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Faculty  Members Images</h1>
+    <div class="full-img" id="fullimgbox">
+        <img src="lnt1.jpg" id="fullimg">
+        <span onclick="closefullimg()">X</span>
+    </div>
+    <div class="imggallery">
+        <img src="gallery/brabu1.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/Bca_logo.jpeg"  onclick="openfullimg(this.src)">
+        <img src="gallery/faculty1.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/faculty2.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/Avaysir_principal.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/Sunil_sir.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/pramodsir.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/aksir.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/artimam.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/munnasir.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/rahulsir.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/pankajsir.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/indrajeet.jpg"  onclick="openfullimg(this.src)">
+          
+    </div>
+
+    <script>
+        var fullimgbox=document.getElementById("fullimgbox");
+        var fullimg=document.getElementById("fullimg");
+
+
+        function openfullimg(pic)
+        {
+            fullimgbox.style.display="flex";
+            fullimg.src=pic;
+        }
+
+        function closefullimg()
+        {
+            fullimgbox.style.display="none";
+        }
+    </script>
+
+       
+
+    
+</body>
+</html>

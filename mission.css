@@ -1,0 +1,9 @@
+.image{
+    height: 300px;
+    width: 300px;
+    background-image: url(Mission.jpg);
+    background-size: cover;
+    background-position: fixed;
+    text-align: center;
+}
+   

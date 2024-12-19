@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauti</title>
+    <link rel="stylesheet" href="beauti.css">
+</head>
+<body>
+    <br>
+    <h1 style="text-align: center;">Beauti</h1>
+    <h1 style="text-align: center;">Classes & Labs Images</h1>
+    <div class="full-img" id="fullimgbox">
+        <img src="lnt1.jpg" id="fullimg">
+        <span onclick="closefullimg()">X</span>
+    </div>
+    <div class="imggallery">
+        <img src="gallery/brabu1.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus26.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/bcabeauti1.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/bcabeauti2.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/bcabeauti3.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/bcabeauti4.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/bcabeauti5.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/bcabeauti6.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/bcabeauti7.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/bcabeauti8.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/bcabeauti9.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/bcabeauti10.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/bcabeauti11.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/bcabeauti12.jpg"  onclick="openfullimg(this.src)">
+      
+       
+       
+        
+        
+    </div>
+
+    <script>
+
+
+        var fullimgbox=document.getElementById("fullimgbox");
+        var fullimg=document.getElementById("fullimg");
+
+
+        function openfullimg(pic)
+        {
+            fullimgbox.style.display="flex";
+            fullimg.src=pic;
+        }
+
+        function closefullimg()
+        {
+            fullimgbox.style.display="none";
+        }
+    </script>
+    
+    
+</body>
+</html>

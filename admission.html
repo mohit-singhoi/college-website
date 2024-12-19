@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BCA Admission Form</title>
+  <link rel="stylesheet" href="Admission.css">
+</head>
+<body>
+  <div class="container">
+    <h1 style="text-align: center;">BCA</h2>
+    <h2 style="text-align: center;">ADMISSION FORM</h2>
+    <h3 style="text-align: center;">L.N.T COLLEGE MUZAFFARPUR</h2>
+    <p>Kalambagh Rd, Mahammadpur Kazi, Satsang Vihar, Muzaffarpur, Bihar 842001</p>
+    <h5 style="text-align: center;">NAAC  Grade "B" - A Constituent unit of B.R.A Bihar University</h5>
+    <form id="admissionForm" onsubmit="return validateForm()" action="admission.php" method="post">
+      <label for="fullName">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter  Your Fullname" required>
+
+      <label for="fatherName">Father's Name</label>
+      <input type="text" id="fatherName" name="fathername" placeholder=" Enter your Father's name" required>
+
+      <label for="motherName">Mother's Name</label>
+      <input type="text" id="motherName" name="mothername"  placeholder="Enter your Mother's name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your Email-id" required>
+
+      <label for="phone">Phone No.</label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter Your mobile no" required>
+
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob" placeholder="Enter your DOB" required>
+
+      <label for="aadhar">Aadhar No.</label>
+      <input type="text" id="aadhar" name="aadhar" placeholder="Enter your Aadhar no " required>
+
+      <label for="gender">Gender</label>
+      <input type="text" id="gender" name="gender" placeholder="Enter M/F/others" required>
+     
+
+      <label for="address">Address</label>
+      <textarea id="address" name="address" required placeholder="Enter Your Address"> </textarea>
+
+      <label for="nationality">Nationality</label>
+      <input type="text" id="nationality" name="nationality"  placeholder="Enter Your Nationality">
+
+      <label for="religion">Religion</label>
+      <input type="text" id="religion" name="religion" placeholder="Enter your religion" required>
+
+      <label for="category">Category</label>
+      <input type="text" id="category" name="category" placeholder="Enter your category" required>
+
+      <label for="qualification"> Higher Qualification</label>
+      <input type="text" id="qualification" name="qualification"  placeholder="your Highest qualification">
+
+      <label for="marks">Marks Obtained</label>
+      <input type="number" id="marks" name="marks" placeholder="Your Marks in Higer qualification" required>
+
+      <label for="course">Select Course</label>
+      <input type="text" id="course" name="course" placeholder="Enter your Course" required>
+      
+
+      <input type="checkbox" id="terms" name="terms" required>
+    
+      <label for="terms">I agree to the terms and conditions</label>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script src="Admission.js"></script>
+</body>
+</html>

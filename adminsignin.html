@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Sign-in Page</title>
+    <link rel="stylesheet" href="adminsignin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1>Admin Sign-in page</h1>
+            <!-- <form action="adminsignin.php " method="post"> -->
+                <form onsubmit="return data()" action="adminsignin.php" method="post">
+                <div class="input-group">
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" name="name" id="name" placeholder="Admin_name">
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="password" id="password" placeholder="Password">
+                    </div>
+
+                    <!-- <p>If you have not an Account  <a href="Adminsignup.html">Click Here !</a></p> -->
+
+                    <br>
+
+                    <div class="btn-field">
+                        <!-- <input type="submit"> -->
+
+
+                        <!-- <button type="button" ><a href="Administration1.html"> Submit</a></button> -->
+                        <button type="submit"  > Submit  <a href="administration.html"></a> </button>
+                        <!-- <button type="button"class="disable" > Sign-Up</button> -->
+                 
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="adminsignin.js">
+        
+    </script>
+    
+</body>
+</html>

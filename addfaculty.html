@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Add new Faculty Members</title>
+    <link rel="stylesheet" href="addfaculty.css">
+</head>
+<body>
+    <h2>Add New Faculty Member !</h2>
+    <br>
+    <div class="faculty">
+        <form onsubmit="return data()" action="addfaculty.php" method="post">
+        <!-- <form action="addfaculty.php " method="post"> -->
+        <div class="staff">
+        <label> Faculty ID : <input type="number"name="fid" id="fid" placeholder=" Faculty ID" required</label>
+        <br>
+        <br>
+        <label> Name : <input type="text"name="name" id="name" placeholder=" Enter Name" required</label>
+        <br>
+        <br>
+        <label> Designation : <input type="text"name="designation"  id="designation" placeholder="Job Role" required</label>
+        <br>
+        <br>
+        <label> E-mail : <input type="email"name="email" id="email" placeholder="E-mail" required</label>
+        <br>
+        <br>
+       
+        <label> Mobile No : <input type="number"name="mobileno" id="mobileno"  placeholder="Mobile Number" required</label>
+        <br>
+        <br>
+        <label> Address : <input type="text" name="address" id="address" placeholder="Address" required</label>
+        <br>
+        <br>
+        <label><input type="checkbox" name="check"> I agree required</label>
+        <br>
+        <br>
+        
+
+        <input type="submit"name="Submit" >
+    </div>
+        </form>
+
+    </div>
+
+  <script src="addfaculty.js"></script>
+    
+</body>
+</html>

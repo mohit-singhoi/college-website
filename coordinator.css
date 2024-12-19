@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cordinator{
+    width: 250px;
+    height: 250px;
+    background-image: url(gallery/Sunil_sir.jpg);
+    background-size: cover;
+    margin: 10px;
+    border-radius: 5px; 
+     /* border: 2px solid gray;
+ */
+}
+.cordinator:hover{
+    transform: scale(1.1);
+}
+.container{
+    max-height: 750px;
+
+    background: #fff;
+   
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+    border: 2px solid black;
+}

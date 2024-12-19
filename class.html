@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab & classes Image</title>
+    <link rel="stylesheet" href="class.css">
+</head>
+<body>
+    <br>
+    <h1 style="text-align: center;">Classes & Labs Images</h1>
+    <div class="full-img" id="fullimgbox">
+        <img src="lnt1.jpg" id="fullimg">
+        <span onclick="closefullimg()">X</span>
+    </div>
+    <div class="imggallery">
+        <img src="gallery/brabu1.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class1.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class2.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class3.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class4.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class5.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class6.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class7.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class8.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class9.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class10.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class11.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class12.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class13.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class14.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class15.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class16.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class17.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class18.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class19.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class20.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class21.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class22.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class23.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class17.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class18.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class19.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class20.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class21.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class22.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/class23.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/office1.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/office2.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/office3.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/office4.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/office5.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/office1.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/office6.jpg"  onclick="openfullimg(this.src)">
+       
+        
+        
+    </div>
+
+    <script>
+
+
+        var fullimgbox=document.getElementById("fullimgbox");
+        var fullimg=document.getElementById("fullimg");
+
+
+        function openfullimg(pic)
+        {
+            fullimgbox.style.display="flex";
+            fullimg.src=pic;
+        }
+
+        function closefullimg()
+        {
+            fullimgbox.style.display="none";
+        }
+    </script>
+    
+</body>
+</html>

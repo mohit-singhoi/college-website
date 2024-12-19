@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <!-- ==========css========== -->
+    <link rel="stylesheet" href="registration.css">
+    <!-- ========iconscout========== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="https:/unicons.iconscout/release/v4.0.0/css/line.css">
+
+</head>
+<body>
+    <div class="container">
+        <header>Registration</header>
+        <form onsubmit="return data()" action="registration.php" method="post">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label >Full Name </label>
+                            <input type="text" name="name" id="name" placeholder="Enter Your name" required>
+                        </div>
+                        
+
+                        <div class="input-field">
+                            <label >Date of Birth </label>
+                            <input type="date" name="dob" id="dob" placeholder="Enter Your DOB" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label >Email </label>
+                            <input type="email" name="email" id="email" placeholder="Enter Your email" required>
+                        </div>
+                        
+
+                        <div class="input-field">
+                            <label >Mobile Number </label>
+                            <input type="text" name="mobileno" id="mobileno" placeholder="Enter Your Mobile no." required>
+                        </div>
+
+
+                        <div class="input-field">
+                            <label >Physically Challenged </label>
+                            <input type="text" placeholder="yes/no" name="pchanges" id="pchanges" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label >  Category </label><br>
+                            <input type="text" placeholder="Enter Your Mobile no." name="category" id="category" required>
+                          
+                            
+                        </div>
+
+                    </div>
+                </div>
+                <br>
+
+                <div class="details academic">
+                <span class="title">Academic Details</span>
+                <div class="fields">
+                    <div class="input-field">
+                        <label >10th Board Name</label>
+                        <input type="text" placeholder="Enter Your 10th Board name" name="tenthboard" id="tenthboard" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label >Marks in 10th </label>
+                        <input type="number" placeholder="Enter Your Marks(in %)" name="tenthmarks" id="tenthmarks" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label >10th Passing year </label>
+                        <input type="number" placeholder="Enter Your 10th Passing year" name="tenthyear" id="tenthyear" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label >12th Board Name </label>
+                        <input type="text" placeholder="Enter Your 12th Board Name" name="twthboard" id="twthboard" required>
+                    </div>
+                    <div class="input-field">
+                        <label >Marks in 12th </label>
+                        <input type="number" placeholder="Enter Your 12th Marks(in %)" name="twmarks" id="twmarks" required>
+                    </div>
+                    <div class="input-field">
+                        <label >12th Pasing year </label>
+                        <input type="number" placeholder="Passing Year" name="twyear" id twyear required>
+                    </div>
+
+                </div>
+                <button class="nextbtn">
+                    <span class="btntext">Next</span>
+                    <i class="uil uil-navigator"></i>
+                </button>
+            </div>
+            </div>
+
+
+
+            <div class="form second">
+                <div class="details address">
+                    <span class="title">Address Details</span>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label >Address Type </label>
+                            <input type="text" placeholder="Enter Your Address type" name="atype" id="atype" required>
+                        </div>
+                        
+
+                        <div class="input-field">
+                            <label >Nationality </label>
+                            <input type="text" placeholder="Enter Your nationality"  name="nation" id="nation" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label >State </label>
+                            <input type="text" placeholder="Enter Your State" name="state" id="state" required>
+                        </div>
+                        
+
+                        <div class="input-field">
+                            <label >Distict </label>
+                            <input type="text" placeholder="Enter Your Distict" name="distict" id="distict" required>
+                        </div>
+
+                      
+
+                        <div class="input-field">
+                            <label >Village </label>
+                            <input type="text" placeholder="Enter Your VIllage name" name="village" id="village" required>
+                        </div>
+                    
+                    
+                        <div class="input-field">
+                            <label >Pincode </label>
+                            <input type="number" placeholder="Enter Your Pincode" name="pincode" id="pincode" required>
+                        </div>
+                     
+
+                    </div>
+                </div>
+                
+                <br>
+
+                <div class="details family">
+                    <span class="title">Family Details</span>
+                <div class="fields">
+                    <div class="input-field">
+                        <label >Father's Name</label>
+                        <input type="text" placeholder="Enter Your father's name" name="fname" id="fname" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label > Father Occupasion </label>
+                        <input type="text" placeholder="Enter Your Father Occupasion" name="foc" id="foc" required>
+                    </div>
+                    <div class="input-field">
+                        <label > Father's Mobile No. </label>
+                        <input type="number" placeholder="Enter Your Father's Mob. no." name="fmobile" id="fmobile" required>
+                    </div>
+
+
+                  
+
+                    <div class="input-field">
+                        <label >Mother's Name  </label>
+                        <input type="text" placeholder="Enter Your Mother's Name" name="mname" id="mname" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label >Mother Occupasion  </label>
+                        <input type="text" placeholder="Enter Your Mother Occupasion " name="moc" id="moc" required>
+                    </div>
+                    <div class="input-field">
+                        <label >Mother's Mobile No.  </label>
+                        <input type="text" placeholder="Enter Your Mother's Mobile no. " name="mmobil" id="mmobil" required>
+                    </div>
+
+                   
+
+                   
+
+                </div>
+                <div class="buttons">
+                    <button class="backbtn">
+                        <!-- <i class="fa-solid fa-square-chevron-right"></i> -->
+                        <i class="uil uil-navigator"></i>
+                        <span class="btntext">Back</span>
+                        
+                    </button>
+
+                    <button class="submit">
+                        <span class="submit"> Submit</a> </span>
+                        <!-- <i class="fa-solid fa-square-chevron-right"></i> -->
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div>
+
+            </div>
+            </div>
+            
+
+            </div>
+
+        </form>
+    </div>
+    <script src="registration.js"></script>
+
+    
+</body>
+</html>

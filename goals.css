@@ -1,0 +1,17 @@
+h2{
+    text-align: center;
+    color:black;
+}
+
+p{
+    font-size: large;
+    line-height: 1.6;
+    margin-left: 10px;
+}
+.goals{
+    max-width: 700px;
+    border: 2px solid black;
+}
+body{
+    margin-left: 300px;
+}

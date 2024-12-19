@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> College Campus</title>
+    <link rel="stylesheet" href="campus.css">
+</head>
+<body>
+    <br>
+    <h1 style="text-align: center;">College Department Campus</h1>
+    <div class="full-img" id="fullimgbox">
+        <img src="lnt1.jpg" id="fullimg">
+        <span onclick="closefullimg()">X</span>
+    </div>
+    <div class="imggallery">
+       
+        <img src="gallery/brabu1.jpg"  onclick="openfullimg(this.src)">
+        <img src="lntlogo.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus26.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus1.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus3.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus4.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus5.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus6.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus6.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus7.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus8.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus9.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus10.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus11.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus12.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus13.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus14.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus15.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus16.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus17.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus18.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus19.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus20.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus21.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus22.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus23.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus24.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus25.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus27.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus28.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus29.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/campus30.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/lntcampus1.jpeg"  onclick="openfullimg(this.src)">
+        <img src="gallery/lntcampus3.jpeg"  onclick="openfullimg(this.src)">
+        <img src="gallery/lntcampus4.jpeg"  onclick="openfullimg(this.src)">
+        <img src="gallery/lntcampus5.jpeg"  onclick="openfullimg(this.src)">
+        <img src="gallery/lntcampus6.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/lntcampus7.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/lntcampus8.jpeg"  onclick="openfullimg(this.src)">
+        <img src="gallery/lntcampus9.jpeg"  onclick="openfullimg(this.src)">
+        <img src="gallery/lntcampus10.jpeg"  onclick="openfullimg(this.src)">
+        <img src="gallery/lalitsmaraklnt.jpg"  onclick="openfullimg(this.src)">
+        
+    </div>
+
+    <script>
+
+
+        var fullimgbox=document.getElementById("fullimgbox");
+        var fullimg=document.getElementById("fullimg");
+
+
+        function openfullimg(pic)
+        {
+            fullimgbox.style.display="flex";
+            fullimg.src=pic;
+        }
+
+        function closefullimg()
+        {
+            fullimgbox.style.display="none";
+        }
+    </script>
+
+       
+
+    
+</body>
+</html>

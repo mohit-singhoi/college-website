@@ -1,0 +1,7 @@
+.vision{
+    height: 300px;
+    width: 300px;
+    background-image: url(Vision.jpg);
+    background-size: cover;
+    background-position: fixed;
+}

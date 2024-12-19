@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+html, body {
+    overflow-x: hidden;
+    height: 100%;
+}
+body {
+  font-family: "Varela Round", sans-serif;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.header {
+    background-color: #eb4d4b;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 10;
+}
+.main {
+    height: 100%;
+    margin-top: 60px;
+    padding: 10px 50px;
+}
+#sidebarMenu {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 250px;
+    margin-top: 60px;
+    transform: translateX(-250px);
+    transition: transform 300ms ease-in-out;
+    /* background: #2e86de; */
+    background: black;
+    color: #fff;
+}
+.menu{
+  list-style: none; 
+    margin:0;
+    padding:0;
+}
+.menu li{
+    border-bottom: 1px solid #fff;
+}
+.menu li a{
+    color: #fff;
+    display: block;
+    padding: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#openSidebarMenu:checked ~ #sidebarMenu {
+    transform: translateX(0);
+}
+
+input#openSidebarMenu{
+    display: none;
+}
+.sidebarIconToggle {
+  height: 22px;
+    width: 22px;
+    position: absolute;
+    z-index: 99;
+    top: 22px;
+    left: 15px;
+    transition: all 0.3s;
+    cursor: pointer; 
+}
+.spinner {
+    height: 3px;
+    background-color: #fff;
+    transition: all 0.3s;
+}
+.spinner.middle ,
+.spinner.bottom{
+    margin-top: 3px;
+}
+#openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.middle {
+    opacity: 0;
+}
+#openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.top {
+    transform: rotate(135deg);
+    margin-top: 8px;
+}
+#openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.bottom {
+    transform: rotate(-135deg);
+    margin-top: -9px;
+}
+#sidebarMenu ul li:hover{
+    border-radius: 5px;
+    justify-content: center;
+ 
+    background:rgb(0,100,0);
+ 
+    
+}
+ul{
+    list-style: none;
+    margin-left: 1px;
+}
+.menubar-1{
+    display: none;
+}
+#sidebarMenu ul li:hover .menubar-1{
+    display: block;
+    position: absolute;
+    background:gray;
+    color: black;
+    margin-top: -5px;
+    margin-left: 10px;
+
+}
+
+#sidebarMenu ul li:hover .menubar-1 ul
+
+{
+    display: block;
+    margin: 8px;
+}
+
+
+.menubar-1 ul li{
+    margin: 20px;
+    padding: 10px;
+}
+
+#sidebarMenu ul li:hover .menubar-1 ul li
+
+{
+    width: 100px;
+    padding: 5px;
+    border-bottom: 1px dotted black;
+    background: transparent;
+    border-radius: 2px;
+    text-align: left;
+    /* color: black; */
+}
+
+#sidebarMenu ul li:hover .menubar-1 ul li:last-child
+
+{
+    border-bottom: none;
+}
+
+#sidebarMenu ul li:hover .menubar-1 ul li a:hover
+
+{
+    color: #b2ff00;
+}
+

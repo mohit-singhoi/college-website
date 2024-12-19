@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Event Images</title>
+    <link rel="stylesheet" href="Event.css">
+</head>
+<body>
+    <br>
+    <h1 style="text-align: center;">Some  BCA Department Events Images</h1>
+    <div class="full-img" id="fullimgbox">
+        <img src="lnt1.jpg" id="fullimg">
+        <span onclick="closefullimg()">X</span>
+    </div>
+    <div class="imggallery">
+        <img src="gallery/brabu1.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events1.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events2.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events3.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events4.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events5.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events6.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events7.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events8.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events9.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events10.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events11.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events12.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events13.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events14.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events15.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events16.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events17.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events18.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events19.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events20.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events21.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/event1.jpeg"  onclick="openfullimg(this.src)">
+        <img src="gallery/event2.jpeg"  onclick="openfullimg(this.src)">
+        <img src="gallery/event3.jpeg"  onclick="openfullimg(this.src)">
+        <img src="gallery/event4.jpeg"  onclick="openfullimg(this.src)">
+        <img src="gallery/event5.jpeg"  onclick="openfullimg(this.src)">
+        <img src="gallery/event6.jpeg"  onclick="openfullimg(this.src)">
+        <img src="gallery/event7.jpeg"  onclick="openfullimg(this.src)">
+        <img src="gallery/event8.jpeg"  onclick="openfullimg(this.src)">
+        <img src="gallery/event9.jpeg"  onclick="openfullimg(this.src)">
+        <img src="gallery/event10.jpeg"  onclick="openfullimg(this.src)">
+        <img src="gallery/event11.jpeg"  onclick="openfullimg(this.src)">
+        <img src="gallery/event12.jpeg"  onclick="openfullimg(this.src)">
+        <img src="gallery/event13.jpeg"  onclick="openfullimg(this.src)">
+        <img src="gallery/event14.jpeg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events22.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events23.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events24.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events25.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events26.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events27.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events28.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events29.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events30.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events31.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events32.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events33.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events34.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events35.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events36.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events37.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events38.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events39.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events40.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events41.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events42.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events43.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events44.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events45.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events46.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events47.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events48.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events49.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events50.jpg"  onclick="openfullimg(this.src)">
+        <img src="gallery/events51.jpg"  onclick="openfullimg(this.src)">
+
+        
+    </div>
+
+    <script>
+
+
+        var fullimgbox=document.getElementById("fullimgbox");
+        var fullimg=document.getElementById("fullimg");
+
+
+        function openfullimg(pic)
+        {
+            fullimgbox.style.display="flex";
+            fullimg.src=pic;
+        }
+
+        function closefullimg()
+        {
+            fullimgbox.style.display="none";
+        }
+    </script>
+
+       
+
+    
+    
+</body>
+</html>
